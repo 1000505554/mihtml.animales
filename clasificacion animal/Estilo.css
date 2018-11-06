@@ -1,0 +1,199 @@
+body{
+	background: #FFFFFF;/*color de fondo*/ 
+}
+header{
+	background:#AEB6BF;
+	width: 1000px;
+	height: 100px;
+	overflow: hidden;
+	margin: auto;
+}
+.main{
+	width: 1000px;
+	height: 800px;
+	background: #fff;
+	overflow: hidden;
+	margin: auto;
+}
+
+
+.nav{
+
+	background-color:#34495E;
+	width: 1000px;
+    	overflow: hidden;
+    	margin: 30px auto;
+ 
+}
+.nav ul {
+	list-style: none;
+	background-color:#34495E;
+}
+
+
+.menu > li {
+	display: inline-block;
+	float:left;
+}
+
+
+.menu >li >a {
+	display: block;
+	padding: 15px 20px;
+	font-size: 13px;
+	font-family: "courier New", courier, monospace;
+	font-weight:bold; 
+	color:#fff;
+	text-decoration: none;
+}
+.menu li a:hover {
+	color:#000000;
+	background:#85929E;
+	transition: all .6s;
+}
+
+/*programar el submenu*/
+
+.submenu{
+	position: absolute;
+	background:#fff;
+	width:13%;
+    	display: none;
+    	visibility: hidden;
+    	opacity: 0;
+    	transition: opacity 1.5s;
+	color: #FFFFFF;
+}
+
+.submenu li a {
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family:'open sans' ;
+	text-decoration: none;
+
+}
+.menu li:hover .submenu{
+	display: block;
+	visibility: visible;
+	opacity: 1;
+
+
+
+}
+.sec1{
+	width: 980px;
+	height: 450px;
+	background: #fff;
+	margin: auto;
+	overflow:hidde;
+	
+}
+.arti1{
+	width:445px;
+	height:400px;
+	background:#F2F2F2;
+	margin-left:20px;
+	float: left;
+}
+.arti2{
+
+    	width:445px;
+	height: 400px;
+	background:#F2F2F2;
+	margin-right:20px;
+	float: right;
+}
+.sec2{
+	width:980px;
+	height:700px;
+	background:#F2F2F2;
+	margin:auto;
+	overflow: hidden;
+	margin: 30px, auto;
+
+}
+
+.sec3{
+	width: 980px;
+	height: 700px;
+	background:#fff;
+	margin: auto;
+	overflow: hidden;
+	margin:30px auto;
+	
+}
+.arti3{
+	width:600px;
+	height:380px;
+	background:#F2F2F2;
+	margin-left:20px;
+	float: left;
+	margin:30px auto;
+	
+
+}
+.aside{
+	width:320px;
+	height: 380px;
+	background:#F2F2F2;
+	overflow: hidden;
+	margin-right: 10px;
+	float: right;
+	margin:30px auto;
+	font_color: #000000;
+}
+	
+footer{
+	width:980px;
+	height:100px;
+	background:#AEB6BF;
+	margin: 30px auto;
+	color:#000;
+	font-size: 15px;
+	font-family: open sans;
+}
+
+/*genero Clasico*/
+
+.gsec1{
+	width: 980px;
+	height: 450px;
+	background:#fff;
+	margin: auto;
+	overflow:hidde;
+	
+}
+.garti1{
+	width:900px;
+	height:400px;
+	background:#F2F2F2;
+	margin:20px;
+	float: center;
+}
+
+.gsec2{
+	width:980px;
+	height:450px;
+	background:#fff;
+	margin:auto;
+	overflow: hidden;
+	margin: 30px, auto;
+}
+.garti2{
+
+    	width:445px;
+	height: 400px;
+	background:#F2F2F2;
+	margin-right:20px;
+	float: right;
+}
+.garti3{
+
+    	width:445px;
+	height: 400px;
+	background:#F2F2F2;
+	margin-left:20px;
+	float: left;
+
+}
